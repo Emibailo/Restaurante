@@ -46,6 +46,7 @@ class Restaurante:
         media=round(soma_das_notas/quantidade_de_notas,1)
         return media
     
+    # def registrar_avaliacao()
 
 
 
