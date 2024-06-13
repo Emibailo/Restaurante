@@ -66,9 +66,9 @@ def avaliar_restaurante():
     for restaurante in Restaurante.restaurantes:
         if nome_do_restaurante == restaurante._nome:
             avaliacao = float(input('Digite a avaliação (de 0 a 10): '))
-            restaurante.receber_avaliacao('', avaliacao)  # Passando uma string vazia para o nome do cliente
+            restaurante.receber_avaliacao('', avaliacao) 
             print(f'Avaliação do restaurante {nome_do_restaurante} registrada com sucesso!')
-            voltar_menu()  # Adicionando esta linha para permitir voltar ao menu principal
+            voltar_menu()  
             return
     print(f'O restaurante {nome_do_restaurante} não foi encontrado.')
 
